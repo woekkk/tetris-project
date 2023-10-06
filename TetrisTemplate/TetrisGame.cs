@@ -23,14 +23,14 @@ class TetrisGame : Game
     [STAThread]
     static void Main(string[] args)
     {
-        TetrisGame game = new TetrisGame();
+        TetrisGame game = new();
         game.Run();
     }
 
     public TetrisGame()
     {        
         // initialize the graphics device
-        GraphicsDeviceManager graphics = new GraphicsDeviceManager(this);
+        GraphicsDeviceManager graphics = new(this);
 
         // store a static reference to the content manager, so other objects can use it
         ContentManager = Content;
