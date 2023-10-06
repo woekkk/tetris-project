@@ -24,18 +24,28 @@ class TetrisGrid
     /// <param name="b"></param>
     public TetrisGrid()
     {
-        emptyCell = TetrisGame.ContentManager.Load<Texture2D>("block");
+        emptyCell = TetrisGame.ContentManager.Load<Texture2D>("blockBlack");
         position = Vector2.Zero;
         Clear();
     }
-
     /// <summary>
     /// Draws the grid on the screen.
     /// </summary>
     /// <param name="gameTime">An object with information about the time that has passed in the game.</param>
     /// <param name="spriteBatch">The SpriteBatch used for drawing sprites and text.</param>
     public void Draw(GameTime gameTime, SpriteBatch spriteBatch)
-    {
+    {        
+        for (int i = 0; i < 10; i++)
+        {
+            for (int j = 0; j < 20; j++)
+            {
+                position.X = emptyCell.Width * i;
+                position.Y = emptyCell.Height * j;
+                spriteBatch.Draw(emptyCell, position, Color.White);
+
+
+            }
+        }
     }
 
     /// <summary>

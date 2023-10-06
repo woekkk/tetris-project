@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wieke\\Wiekes documenten\\Studie\\Jaar 1\\INFOB1GP\\Projecten\\Tetris\\game_prog_tetris\\TetrisTemplate\\TetrisTemplate.csproj": {}
+    "C:\\Users\\bram\\study_projects\\Game_Programmeren\\tetris-project\\TetrisTemplate\\TetrisTemplate.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wieke\\Wiekes documenten\\Studie\\Jaar 1\\INFOB1GP\\Projecten\\Tetris\\game_prog_tetris\\TetrisTemplate\\TetrisTemplate.csproj": {
+    "C:\\Users\\bram\\study_projects\\Game_Programmeren\\tetris-project\\TetrisTemplate\\TetrisTemplate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wieke\\Wiekes documenten\\Studie\\Jaar 1\\INFOB1GP\\Projecten\\Tetris\\game_prog_tetris\\TetrisTemplate\\TetrisTemplate.csproj",
+        "projectUniqueName": "C:\\Users\\bram\\study_projects\\Game_Programmeren\\tetris-project\\TetrisTemplate\\TetrisTemplate.csproj",
         "projectName": "TetrisTemplate",
-        "projectPath": "C:\\Users\\wieke\\Wiekes documenten\\Studie\\Jaar 1\\INFOB1GP\\Projecten\\Tetris\\game_prog_tetris\\TetrisTemplate\\TetrisTemplate.csproj",
-        "packagesPath": "C:\\Users\\wieke\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wieke\\Wiekes documenten\\Studie\\Jaar 1\\INFOB1GP\\Projecten\\Tetris\\game_prog_tetris\\TetrisTemplate\\obj\\",
+        "projectPath": "C:\\Users\\bram\\study_projects\\Game_Programmeren\\tetris-project\\TetrisTemplate\\TetrisTemplate.csproj",
+        "packagesPath": "C:\\Users\\bram\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bram\\study_projects\\Game_Programmeren\\tetris-project\\TetrisTemplate\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\wieke\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\bram\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,12 +60,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.22, 6.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.22, 6.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.22, 6.0.22]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.22, 6.0.22]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

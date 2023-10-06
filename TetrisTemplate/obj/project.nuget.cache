@@ -1,11 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "NSnrSGy33J8VYqPkAFViKGPpfi0P/beJzZiSIv/yaefRoLOVpnMCXNi4BuYqoqBdNbrdS9UWdjTaZnh62eYmew==",
+  "dgSpecHash": "/6O4c3893gD7ggFZ5pFU6gHqQ+uLCZrolbkApdD37iL5H9Qif6j0jZmx7XtQlc29Nwp2GpdMoRp9fL1f+zI07A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wieke\\Wiekes documenten\\Studie\\Jaar 1\\INFOB1GP\\Projecten\\Tetris\\game_prog_tetris\\TetrisTemplate\\TetrisTemplate.csproj",
+  "projectFilePath": "C:\\Users\\bram\\study_projects\\Game_Programmeren\\tetris-project\\TetrisTemplate\\TetrisTemplate.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\wieke\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
-    "C:\\Users\\wieke\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+    "C:\\Users\\bram\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\bram\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\bram\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.22\\microsoft.windowsdesktop.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\bram\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.22\\microsoft.netcore.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\bram\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.22\\microsoft.aspnetcore.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\bram\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.22\\microsoft.netcore.app.host.win-x64.6.0.22.nupkg.sha512"
   ],
   "logs": []
 }

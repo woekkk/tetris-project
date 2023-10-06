@@ -25,3 +25,31 @@ C:\Users\wieke\Wiekes documenten\Studie\Jaar 1\INFOB1GP\Projecten\Tetris\game_pr
 C:\Users\wieke\Wiekes documenten\Studie\Jaar 1\INFOB1GP\Projecten\Tetris\game_prog_tetris\TetrisTemplate\obj\Debug\net6.0\TetrisTemplate.pdb
 C:\Users\wieke\Wiekes documenten\Studie\Jaar 1\INFOB1GP\Projecten\Tetris\game_prog_tetris\TetrisTemplate\obj\Debug\net6.0\TetrisTemplate.genruntimeconfig.cache
 C:\Users\wieke\Wiekes documenten\Studie\Jaar 1\INFOB1GP\Projecten\Tetris\game_prog_tetris\TetrisTemplate\obj\Debug\net6.0\ref\TetrisTemplate.dll
+C:\Users\bram\study_projects\Game_Programmeren\tetris-project\TetrisTemplate\bin\Debug\net6.0\Content\block.xnb
+C:\Users\bram\study_projects\Game_Programmeren\tetris-project\TetrisTemplate\bin\Debug\net6.0\Content\SpelFont.xnb
+C:\Users\bram\study_projects\Game_Programmeren\tetris-project\TetrisTemplate\bin\Debug\net6.0\TetrisTemplate.exe
+C:\Users\bram\study_projects\Game_Programmeren\tetris-project\TetrisTemplate\bin\Debug\net6.0\TetrisTemplate.deps.json
+C:\Users\bram\study_projects\Game_Programmeren\tetris-project\TetrisTemplate\bin\Debug\net6.0\TetrisTemplate.runtimeconfig.json
+C:\Users\bram\study_projects\Game_Programmeren\tetris-project\TetrisTemplate\bin\Debug\net6.0\TetrisTemplate.dll
+C:\Users\bram\study_projects\Game_Programmeren\tetris-project\TetrisTemplate\bin\Debug\net6.0\TetrisTemplate.pdb
+C:\Users\bram\study_projects\Game_Programmeren\tetris-project\TetrisTemplate\bin\Debug\net6.0\MonoGame.Framework.dll
+C:\Users\bram\study_projects\Game_Programmeren\tetris-project\TetrisTemplate\bin\Debug\net6.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\bram\study_projects\Game_Programmeren\tetris-project\TetrisTemplate\bin\Debug\net6.0\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\bram\study_projects\Game_Programmeren\tetris-project\TetrisTemplate\bin\Debug\net6.0\runtimes\osx\native\libSDL2.dylib
+C:\Users\bram\study_projects\Game_Programmeren\tetris-project\TetrisTemplate\bin\Debug\net6.0\runtimes\osx\native\libopenal.1.dylib
+C:\Users\bram\study_projects\Game_Programmeren\tetris-project\TetrisTemplate\bin\Debug\net6.0\runtimes\win-x64\native\SDL2.dll
+C:\Users\bram\study_projects\Game_Programmeren\tetris-project\TetrisTemplate\bin\Debug\net6.0\runtimes\win-x64\native\soft_oal.dll
+C:\Users\bram\study_projects\Game_Programmeren\tetris-project\TetrisTemplate\bin\Debug\net6.0\runtimes\win-x86\native\SDL2.dll
+C:\Users\bram\study_projects\Game_Programmeren\tetris-project\TetrisTemplate\bin\Debug\net6.0\runtimes\win-x86\native\soft_oal.dll
+C:\Users\bram\study_projects\Game_Programmeren\tetris-project\TetrisTemplate\obj\Debug\net6.0\TetrisTemplate.csproj.AssemblyReference.cache
+C:\Users\bram\study_projects\Game_Programmeren\tetris-project\TetrisTemplate\obj\Debug\net6.0\TetrisTemplate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bram\study_projects\Game_Programmeren\tetris-project\TetrisTemplate\obj\Debug\net6.0\TetrisTemplate.AssemblyInfoInputs.cache
+C:\Users\bram\study_projects\Game_Programmeren\tetris-project\TetrisTemplate\obj\Debug\net6.0\TetrisTemplate.AssemblyInfo.cs
+C:\Users\bram\study_projects\Game_Programmeren\tetris-project\TetrisTemplate\obj\Debug\net6.0\TetrisTemplate.csproj.CoreCompileInputs.cache
+C:\Users\bram\study_projects\Game_Programmeren\tetris-project\TetrisTemplate\obj\Debug\net6.0\TetrisTemplate.csproj.CopyComplete
+C:\Users\bram\study_projects\Game_Programmeren\tetris-project\TetrisTemplate\obj\Debug\net6.0\TetrisTemplate.dll
+C:\Users\bram\study_projects\Game_Programmeren\tetris-project\TetrisTemplate\obj\Debug\net6.0\refint\TetrisTemplate.dll
+C:\Users\bram\study_projects\Game_Programmeren\tetris-project\TetrisTemplate\obj\Debug\net6.0\TetrisTemplate.pdb
+C:\Users\bram\study_projects\Game_Programmeren\tetris-project\TetrisTemplate\obj\Debug\net6.0\TetrisTemplate.genruntimeconfig.cache
+C:\Users\bram\study_projects\Game_Programmeren\tetris-project\TetrisTemplate\obj\Debug\net6.0\ref\TetrisTemplate.dll
+C:\Users\bram\study_projects\Game_Programmeren\tetris-project\TetrisTemplate\bin\Debug\net6.0\Content\blockblack.xnb
