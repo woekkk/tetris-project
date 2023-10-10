@@ -2,12 +2,15 @@ using System;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Content;
+using TetrisTemplate;
 
 class TetrisGame : Game
 {
     SpriteBatch spriteBatch;
     InputHelper inputHelper;
     GameWorld gameWorld;
+    public BlockI blockI;
+    public bool[,] shape;
 
     /// <summary>
     /// A static reference to the ContentManager object, used for loading assets.
@@ -45,6 +48,10 @@ class TetrisGame : Game
 
         // create the input helper object
         inputHelper = new InputHelper();
+
+        // temporary
+        shape = new bool[4,4];
+        blockI = new BlockI();
     }
 
     protected override void LoadContent()
@@ -67,6 +74,7 @@ class TetrisGame : Game
     {
         GraphicsDevice.Clear(Color.White);
         gameWorld.Draw(gameTime, spriteBatch);
+        blockI.Draw(gameTime, spriteBatch);
     }
 }
 

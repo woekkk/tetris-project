@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>C:/Users/wieke/Wiekes documenten/Studie/Jaar 1/INFOB1GP/Projecten/Tetris/game_prog_tetris/TetrisTemplate/Content/block.png</SourceFile>
-  <SourceTime>2016-09-28T16:35:42+02:00</SourceTime>
+  <SourceTime>2023-10-06T11:28:20.4271835+02:00</SourceTime>
   <DestFile>C:/Users/wieke/Wiekes documenten/Studie/Jaar 1/INFOB1GP/Projecten/Tetris/game_prog_tetris/TetrisTemplate/Content/bin/DesktopGL/Content/block.xnb</DestFile>
-  <DestTime>2023-10-04T16:17:58.0985921+02:00</DestTime>
+  <DestTime>2023-10-09T15:50:48.3747042+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T13:44:56+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
