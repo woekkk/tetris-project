@@ -9,8 +9,6 @@ class TetrisGame : Game
     SpriteBatch spriteBatch;
     InputHelper inputHelper;
     GameWorld gameWorld;
-    public BlockI blockI;
-    public bool[,] shape;
 
     /// <summary>
     /// A static reference to the ContentManager object, used for loading assets.
@@ -48,10 +46,6 @@ class TetrisGame : Game
 
         // create the input helper object
         inputHelper = new InputHelper();
-
-        // temporary
-        shape = new bool[4,4];
-        blockI = new BlockI();
     }
 
     protected override void LoadContent()
@@ -61,6 +55,7 @@ class TetrisGame : Game
         // create and reset the game world
         gameWorld = new GameWorld();
         gameWorld.Reset();
+        gameWorld.NewBlock();
     }
 
     protected override void Update(GameTime gameTime)
@@ -74,7 +69,6 @@ class TetrisGame : Game
     {
         GraphicsDevice.Clear(Color.White);
         gameWorld.Draw(gameTime, spriteBatch);
-        blockI.Draw(gameTime, spriteBatch);
     }
 }
 
