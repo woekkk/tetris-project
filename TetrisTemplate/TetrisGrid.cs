@@ -7,7 +7,8 @@ using Microsoft.Xna.Framework.Graphics;
 class TetrisGrid
 {
     /// The sprite of a single empty cell in the grid.
-    Texture2D emptyCell;
+    Texture2D backgroundCell;
+    Texture2D forgroundCell;
 
     /// The position at which this TetrisGrid should be drawn.
     Vector2 position;
@@ -17,6 +18,9 @@ class TetrisGrid
    
     /// The number of grid elements in the y-direction.
     public int Height { get { return 20; } }
+
+    // The grid
+    Blocks[,] grid = new Blocks[20, 10];
 
     enum Blocks
     {
@@ -36,9 +40,18 @@ class TetrisGrid
     /// <param name="b"></param>
     public TetrisGrid()
     {
-        emptyCell = TetrisGame.ContentManager.Load<Texture2D>("blockBlack");
+        backgroundCell = TetrisGame.ContentManager.Load<Texture2D>("blockBlack");
+        forgroundCell = TetrisGame.ContentManager.Load<Texture2D>("block");
         position = Vector2.Zero;
         Clear();
+
+        for (int i = 0; i < grid.GetLength(0); i++)
+        {
+            for (int j = 0; j < grid.GetLength(1); j++)
+            {
+                grid[i, j] = Blocks.Nothing;
+            }
+        }
     }
     /// <summary>
     /// Draws the grid on the screen.
@@ -51,22 +64,19 @@ class TetrisGrid
         {
             for (int j = 0; j < 20; j++)
             {
-                position.X = emptyCell.Width * i;
-                position.Y = emptyCell.Height * j;
-                spriteBatch.Draw(emptyCell, position, Color.White);
-
-
+                position.X = backgroundCell.Width * i;
+                position.Y = backgroundCell.Height * j;
+                if (grid[i, j] == Blocks.Nothing) { spriteBatch.Draw(backgroundCell, position, Color.White); }
+                else if (grid[i, j] == Blocks.Cyan) { spriteBatch.Draw(forgroundCell, position, Color.Cyan); }
+                else if (grid[i, j] == Blocks.Green) { spriteBatch.Draw(forgroundCell, position, Color.Green); }
+                else if (grid[i, j] == Blocks.Indigo) { spriteBatch.Draw(forgroundCell, position, Color.Indigo); }
+                else if (grid[i, j] == Blocks.Orange) { spriteBatch.Draw(forgroundCell, position, Color.Orange); }
+                else if (grid[i, j] == Blocks.Red) { spriteBatch.Draw(forgroundCell, position, Color.Red); }
+                else if (grid[i, j] == Blocks.Violet) { spriteBatch.Draw(forgroundCell, position, Color.Violet); }
+                else if (grid[i, j] == Blocks.Yellow) { spriteBatch.Draw(forgroundCell, position, Color.Yellow); }
             }
         }
-        Blocks[,] grid = new Blocks[20, 10];
-
-        for (int i = 0; i < grid.GetLength(0); i++)
-        {
-            for (int j = 0; j < grid.GetLength(1); j++)
-            {
-                grid[i, j] = Blocks.Nothing;
-            }
-        }
+        
     }
 
 /// <summary>
