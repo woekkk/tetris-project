@@ -4,10 +4,12 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/wieke/Wiekes documenten/Studie/Jaar 1/INFOB1GP/Projecten/Tetris/game_prog_tetris/TetrisTemplate/Content/SpelFont.spritefont</File>
     <File>C:/Users/wieke/Wiekes documenten/Studie/Jaar 1/INFOB1GP/Projecten/Tetris/game_prog_tetris/TetrisTemplate/Content/block.png</File>
+    <File>C:/Users/wieke/Wiekes documenten/Studie/Jaar 1/INFOB1GP/Projecten/Tetris/game_prog_tetris/TetrisTemplate/Content/SpelFont.spritefont</File>
+    <File>C:/Users/wieke/Wiekes documenten/Studie/Jaar 1/INFOB1GP/Projecten/Tetris/game_prog_tetris/TetrisTemplate/Content/whiteblock.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>

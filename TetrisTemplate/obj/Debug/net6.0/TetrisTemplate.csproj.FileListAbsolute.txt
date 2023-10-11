@@ -25,3 +25,4 @@ C:\Users\wieke\Wiekes documenten\Studie\Jaar 1\INFOB1GP\Projecten\Tetris\game_pr
 C:\Users\wieke\Wiekes documenten\Studie\Jaar 1\INFOB1GP\Projecten\Tetris\game_prog_tetris\TetrisTemplate\obj\Debug\net6.0\TetrisTemplate.pdb
 C:\Users\wieke\Wiekes documenten\Studie\Jaar 1\INFOB1GP\Projecten\Tetris\game_prog_tetris\TetrisTemplate\obj\Debug\net6.0\TetrisTemplate.genruntimeconfig.cache
 C:\Users\wieke\Wiekes documenten\Studie\Jaar 1\INFOB1GP\Projecten\Tetris\game_prog_tetris\TetrisTemplate\obj\Debug\net6.0\ref\TetrisTemplate.dll
+C:\Users\wieke\Wiekes documenten\Studie\Jaar 1\INFOB1GP\Projecten\Tetris\game_prog_tetris\TetrisTemplate\bin\Debug\net6.0\Content\whiteblock.xnb

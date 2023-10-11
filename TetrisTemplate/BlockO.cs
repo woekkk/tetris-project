@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Xna.Framework;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,9 +10,11 @@ namespace TetrisTemplate
     class BlockO : TetrisBlock
     {
         public override bool[,] shape { get; set; }
+        public override Color color { get; set; }
 
         public BlockO() : base(2)
         {
+            color = Color.Yellow;
             shape = new bool[2,2];
             shape[0,0] = true;
             shape[1,0] = true;

@@ -13,31 +13,12 @@ namespace TetrisTemplate
         int shapeSize;
         Texture2D blockTexture;
         public abstract bool[,] shape { get; set; }
-        public Color color { get; set; }
+        public abstract Color color { get; set; }
 
         protected TetrisBlock(int shapeSize)
         {
             this.shapeSize = shapeSize;
-            blockTexture = TetrisGame.ContentManager.Load<Texture2D>("block");
-            
-            switch (GameWorld.Random.Next(0, 5))
-            {
-                case 0:
-                    color = Color.Tomato;
-                    break;
-                case 1:
-                    color = Color.LightGreen;
-                    break;
-                case 2:
-                    color = Color.CornflowerBlue;
-                    break;
-                case 3:
-                    color = Color.Yellow;
-                    break;
-                case 4:
-                    color = Color.Violet;
-                    break;
-            }
+            blockTexture = TetrisGame.ContentManager.Load<Texture2D>("whiteblock");
         }
 
         public void RotateClockwise()
