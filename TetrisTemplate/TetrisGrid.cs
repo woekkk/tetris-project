@@ -18,6 +18,18 @@ class TetrisGrid
     /// The number of grid elements in the y-direction.
     public int Height { get { return 20; } }
 
+    enum Blocks
+    {
+        Nothing,
+        Red,
+        Yellow,
+        Green,
+        Indigo,
+        Violet,
+        Orange,
+        Cyan
+    }
+
     /// <summary>
     /// Creates a new TetrisGrid.
     /// </summary>
@@ -46,12 +58,21 @@ class TetrisGrid
 
             }
         }
+        Blocks[,] grid = new Blocks[20, 10];
+
+        for (int i = 0; i < grid.GetLength(0); i++)
+        {
+            for (int j = 0; j < grid.GetLength(1); j++)
+            {
+                grid[i, j] = Blocks.Nothing;
+            }
+        }
     }
 
-    /// <summary>
-    /// Clears the grid.
-    /// </summary>
-    public void Clear()
+/// <summary>
+/// Clears the grid.
+/// </summary>
+public void Clear()
     {
     }
 }
