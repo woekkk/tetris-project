@@ -86,6 +86,7 @@ class GameWorld
         grid.Draw(gameTime, spriteBatch);
         currentBlock.Draw(gameTime, spriteBatch, currentBlockPosition);
         nextBlock.Draw(gameTime, spriteBatch, nextBlockPosition);
+        spriteBatch.DrawString(font, "Next Block:", new Vector2(500, 50), Microsoft.Xna.Framework.Color.Black);
         spriteBatch.End();
     }
 
