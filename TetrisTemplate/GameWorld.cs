@@ -35,8 +35,11 @@ class GameWorld
     /// </summary>
     GameState gameState;
 
-    // The current block.
-    TetrisBlock currentBlock;
+    // The current and next Tetrisblock and their positions
+    public TetrisBlock currentBlock;
+    public TetrisBlock nextBlock;
+    Vector2 currentBlockPosition;
+    Vector2 nextBlockPosition;
 
     /// <summary>
     /// The main grid of the game.
@@ -52,6 +55,12 @@ class GameWorld
         font = TetrisGame.ContentManager.Load<SpriteFont>("SpelFont");
 
         grid = new TetrisGrid();
+
+        currentBlock = RandomBlock(true);
+        nextBlock = RandomBlock(true);
+
+        currentBlockPosition = new Vector2(50, 0);
+        nextBlockPosition = new Vector2(500, 80);
     }
 
     public void HandleInput(GameTime gameTime, InputHelper inputHelper)
@@ -64,7 +73,7 @@ class GameWorld
 
         // Temporary: spawn new block
         if (inputHelper.KeyPressed(Microsoft.Xna.Framework.Input.Keys.Space))
-            NewBlock();
+            nextBlock = RandomBlock(false);
     }
 
     public void Update(GameTime gameTime)
@@ -75,35 +84,34 @@ class GameWorld
     {
         spriteBatch.Begin();
         grid.Draw(gameTime, spriteBatch);
-        currentBlock.Draw(gameTime, spriteBatch);
+        currentBlock.Draw(gameTime, spriteBatch, currentBlockPosition);
+        nextBlock.Draw(gameTime, spriteBatch, nextBlockPosition);
         spriteBatch.End();
     }
 
-    public void NewBlock()
+    public TetrisBlock RandomBlock(bool firstBlock)
     {
+        if (!firstBlock)
+            currentBlock = nextBlock;
+        
         switch (Random.Next(0, 7))
         {
             case 0:
-                currentBlock = new BlockI();
-                break;
+                return new BlockI();
             case 1:
-                currentBlock = new BlockL();
-                break;
+                return new BlockL();
             case 2:
-                currentBlock = new BlockJ();
-                break;
+                return new BlockJ();
             case 3:
-                currentBlock = new BlockS();
-                break;
+                return new BlockS();
             case 4:
-                currentBlock = new BlockZ();
-                break;
+                return new BlockZ();
             case 5:
-                currentBlock = new BlockT();
-                break;
+                return new BlockT();
             case 6:
-                currentBlock = new BlockO();
-                break;
+                return new BlockO();
+            default:
+                return null;
         }
     }
 

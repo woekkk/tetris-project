@@ -55,7 +55,6 @@ class TetrisGame : Game
         // create and reset the game world
         gameWorld = new GameWorld();
         gameWorld.Reset();
-        gameWorld.NewBlock();
     }
 
     protected override void Update(GameTime gameTime)

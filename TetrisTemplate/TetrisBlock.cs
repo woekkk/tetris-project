@@ -46,12 +46,12 @@ namespace TetrisTemplate
 
         }
         
-        public void Draw(GameTime gameTime, SpriteBatch spriteBatch)
+        public void Draw(GameTime gameTime, SpriteBatch spriteBatch, Vector2 position)
         {
             for (int i = 0; i < shapeSize; i++)
                 for (int j = 0; j < shapeSize; j++)
                     if (shape[i, j])
-                        spriteBatch.Draw(blockTexture, new Vector2(j * blockTexture.Width, i * blockTexture.Height), color);
+                        spriteBatch.Draw(blockTexture, new Vector2(position.X + j * blockTexture.Width, position.Y + i * blockTexture.Height), color);
         }
     }
 }
