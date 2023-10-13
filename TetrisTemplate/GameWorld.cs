@@ -92,27 +92,54 @@ class GameWorld
 
     public TetrisBlock RandomBlock(bool firstBlock)
     {
+
+        TetrisBlock temporaryBlock;
+        
+        // This if statement sets the current block as the (previous) next block UNLESS currentBlock and nextBlock are assigned for the first time
         if (!firstBlock)
             currentBlock = nextBlock;
         
+        // This switch statement determines which of the 7 block-types the next block will be
         switch (Random.Next(0, 7))
         {
             case 0:
-                return new BlockI();
+                temporaryBlock = new BlockI();
+                break;
             case 1:
-                return new BlockL();
+                temporaryBlock = new BlockL();
+                break;
             case 2:
-                return new BlockJ();
+                temporaryBlock = new BlockJ();
+                break;
             case 3:
-                return new BlockS();
+                temporaryBlock = new BlockS();
+                break;
             case 4:
-                return new BlockZ();
+                temporaryBlock = new BlockZ();
+                break;
             case 5:
-                return new BlockT();
-            case 6:
-                return new BlockO();
+                temporaryBlock = new BlockT();
+                break;
             default:
-                return null;
+                temporaryBlock = new BlockO();
+                break;
+        }
+
+        // This switch statement makes the new block spawn in a random rotation
+        switch (Random.Next(0, 3))
+        {
+            case 0:
+                temporaryBlock.RotateClockwise();
+                return temporaryBlock;
+            case 1:
+                temporaryBlock.RotateCounterClockwise();
+                return temporaryBlock;
+            case 2:
+                temporaryBlock.RotateClockwise();
+                temporaryBlock.RotateClockwise();
+                return temporaryBlock;
+            default:
+                return temporaryBlock;
         }
     }
 
