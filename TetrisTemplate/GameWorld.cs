@@ -90,6 +90,12 @@ class GameWorld
         spriteBatch.End();
     }
 
+
+    /// <summary>
+    /// A class for generating a random block with a random rotation. If the parameter is false, the currentBlock (most likely) won't be the same as the previous nextBlock.
+    /// </summary>
+    /// <param name="firstBlock"></param>
+    /// <returns></returns>
     public TetrisBlock RandomBlock(bool firstBlock)
     {
 
